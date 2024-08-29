@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Thumbnail Extractor",
+  "description": "Extracts thumbnails from a youtube video and allows user to download the thumbnails",
+  "version": "1.0.0",
+  "author": {
+    "email": "CybershiftLabs@gmail.com"
+  },
+  "icons": {
+    "16": "images/GetPageImages-logo-16x16.png",
+    "32": "images/GetPageImages-logo-32x32.png",
+    "48": "images/GetPageImages-logo-48x48.png",
+    "128": "images/GetPageImages-logo-128x128.png"
+  },
+  "action": {
+    "default_icon": "images/GetPageImages-logo.png"
+  },
+  "permissions": ["activeTab", "tabs", "scripting", "storage", "downloads"],
+  "background": {
+    "service_worker": "scripts/background.js"
+  }
+}
