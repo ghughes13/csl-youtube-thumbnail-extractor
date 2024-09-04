@@ -1,6 +1,6 @@
 chrome.storage.local.get(["videoId"], (res) => {
   const videoId = res.videoId;
-  const endings = [1, 2, 3, "mqdefault"];
+  const endings = [0, 1, 2, 3, "mqdefault", "hqdefault"];
   const mainUrl = `https://img.youtube.com/vi/${videoId}/`;
 
   const thumbnails = endings.map((file) => {

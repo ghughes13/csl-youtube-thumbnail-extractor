@@ -4,18 +4,19 @@
   "description": "Extracts thumbnails from a youtube video and allows user to download the thumbnails",
   "version": "1.0.0",
   "author": {
+    "name": "Garrett Hughes",
     "email": "CybershiftLabs@gmail.com"
   },
   "icons": {
-    "16": "images/GetPageImages-logo-16x16.png",
-    "32": "images/GetPageImages-logo-32x32.png",
-    "48": "images/GetPageImages-logo-48x48.png",
-    "128": "images/GetPageImages-logo-128x128.png"
+    "16": "images/thumbnail-extractor-16x16.png",
+    "32": "images/thumbnail-extractor-32x32.png",
+    "48": "images/thumbnail-extractor-48x48.png",
+    "128": "images/thumbnail-extractor-128x128.png"
   },
   "action": {
-    "default_icon": "images/GetPageImages-logo.png"
+    "default_icon": "images/thumbnail-extractor-logo.png"
   },
-  "permissions": ["activeTab", "tabs", "scripting", "storage", "downloads"],
+  "permissions": ["activeTab", "scripting", "storage", "downloads"],
   "background": {
     "service_worker": "scripts/background.js"
   }

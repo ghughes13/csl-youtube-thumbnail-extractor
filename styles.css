@@ -36,7 +36,7 @@ body.dark-mode {
 #get-page-image-page .img-container {
   text-align: center;
   background: #fff;
-  box-shadow: 22px 18px 28px 1px rgba(0,0,0,0.47);
+  box-shadow: 22px 18px 28px 1px rgba(0, 0, 0, 0.47);
   padding: 10px;
   margin: 10px;
   border: solid #d9d9d9 1px;
@@ -57,17 +57,17 @@ body.dark-mode {
 #get-page-image-page .header {
   background: #fafafa;
   border-bottom: solid grey 1px;
-  box-shadow: 22px 18px 28px 1px rgba(0,0,0,0.47);
+  box-shadow: 22px 18px 28px 1px rgba(0, 0, 0, 0.47);
   margin-bottom: 15px;
   padding-top: 25px;
 }
 
 #get-page-image-page.dark-mode .header {
   background: #4b4b4b;
-  border-color: #4b4b4b
+  border-color: #4b4b4b;
 }
 
-#get-page-image-page .toggle-btn  {
+#get-page-image-page .toggle-btn {
   position: relative;
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@ body.dark-mode {
   width: 65px;
   height: 35px;
   border-radius: 30px;
-  cursor:pointer;
+  cursor: pointer;
   margin-top: 18px;
 }
 
@@ -127,4 +127,8 @@ body.dark-mode {
 
 #get-page-image-page .toggle-btn input:checked + span:before {
   transform: translateX(30px);
+}
+
+#get-page-image-page .disclaimer {
+  font-size: 18px;
 }
